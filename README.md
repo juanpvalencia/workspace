@@ -3,14 +3,19 @@
 ## Descripción del Dataset
 El conjunto de datos está conformado por **40 registros experimentales**, donde cada registro representa una ejecución del algoritmo de multiplicación de números enteros de **Karatsuba**. 
 
-En cada registro se almacenan las siguientes variables semánticas:
-* `recordId`: Identificador único del registro.
-* `operandX` y `operandY`: Operadores de entrada utilizados en la multiplicación.
-* `digitCountX` y `digitCountY`: Cantidad de dígitos de cada operador.
-* `executionTimeMs`: Tiempo de ejecución requerido con alta precisión medido en milisegundos para completar la operación.
-* `algorithmResult`: Resultado matemático obtenido de la multiplicación.
-
 El conjunto de datos ha sido estructurado y publicado utilizando un **grafo RDF serializado en formato Turtle (`.ttl`)**. Este dataset permite analizar el comportamiento del tiempo de ejecución en función del tamaño de los operandos, identificar posibles tendencias de rendimiento y realizar comparaciones entre algoritmos de multiplicación.
+
+---
+## Variables
+| Variable | Tipo de Dato | Descripción | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| `recordId` | integer / URI | Identificador único del registro en el dataset. | `1` |
+| `operandX` | integer | Primer factor de multiplicación de entrada. | `483921` |
+| `operandY` | integer | Segundo factor de multiplicación de entrada. | `928103` |
+| `digitCountX` | integer | Longitud en dígitos del primer operando. | `6` |
+| `digitCountY` | integer | Longitud en dígitos del segundo operando. | `6` |
+| `executionTimeMs` | Decimal (Float) | Tiempo de ejecución de la función en milisegundos. | `0.0342` |
+| `algorithmResult` | integer | Resultado de la operación. | `449128531863` |
 
 ---
 
