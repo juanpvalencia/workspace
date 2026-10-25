@@ -55,9 +55,13 @@ El dataset hace uso del estándar **Dublin Core (`dcterms`)** combinado con **DC
 
 ---
 
-## Repositorio y Publicación
+## Repositorio
 * **Código Fuente (GitHub):** [https://github.com/juanpvalencia/workspace](https://github.com/juanpvalencia/workspace)
-* **Dataset Oficial y DOI:** Publicado permanentemente en Zenodo para garantizar su preservación a largo plazo y trazabilidad académica.
+
+## Publicación
+El dataset final serializado en formato RDF/Turtle (`.ttl`) se encuentra permanentemente archivado y publicado en Zenodo bajo el siguiente DOI:
+
+> **DOI:** [10.5281/zenodo.23629651](https://doi.org/10.5281/zenodo.23629651)
 
 ---
 
